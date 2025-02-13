@@ -12,7 +12,7 @@
                                                     cy.get('@userData').then((userData)=>{
                                                     cy.visit(userData.url);
                                                     cy.get('#woocommerce-product-search-field-0').type(userData.producto);
-                                                    cy.get('#woocommerce-product-search-field-0').type('{enter}')
+                                                    cy.get('#woocommerce-product-search-field-0').type('{enter}'cy.screenshot)
                                                     }
                                                     )
                                                     })
