@@ -48,7 +48,7 @@
                                                                         // Validaciones
                                                                         expect(response.status).to.eq(201);
                                                                         expect(response.body).to.have.property('name', 'Matias');
-                                                                        expect(response.body).to.have.property('job', 'QA'); cy.screenshot;
+                                                                        expect(response.body).to.have.property('job', 'QA');
 
                                                                     });
                                                                 });
